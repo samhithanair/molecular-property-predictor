@@ -1,0 +1,16 @@
+# Molecular property prediction: RF vs GNN on Delaney ESOL
+# Python 3.10+, CPU-only
+rdkit
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+shap
+torch
+torch-geometric
+deepchem
+jupyter
+nbformat
+nbclient
+ipykernel
