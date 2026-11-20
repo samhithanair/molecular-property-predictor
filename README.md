@@ -5,7 +5,7 @@
 This project predicts aqueous solubility (logS, log mol/L) for small organic molecules from their structure alone, using two fundamentally different representations: a classical **Morgan-fingerprint + Random Forest** baseline and a **graph neural network (GIN)** that learns directly from the molecular graph. Both are trained and evaluated on identical splits of the Delaney ESOL dataset (1115 molecules; 888 train / 111 val / 116 test), and the results drive an interactive 3D dashboard.
 
 ### Demo
-> Open `index.html` in any browser — no server required. (The page reads `export_results.json` / `coords.json` when served over HTTP and falls back to embedded data when opened as a file.)
+> Open [https://samhithanair.github.io/molecular-property-predictor/](https://samhithanair.github.io/molecular-property-predictor/)
 
 ![UI preview](preview.png)
 
